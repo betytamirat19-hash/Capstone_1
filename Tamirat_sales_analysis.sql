@@ -122,7 +122,7 @@ GROUP BY
 ORDER BY
     Month,
     ic.Category;
-----# Month, Category, Number_of_Transactions, Average_Transaction_Amount
+---ANS--
 --# Month, Category, Number_of_Transactions, Average_Transaction_Amount
 '2022-01', 'Apparel and Merchandise', '42', '$29.13'
 '2022-01', 'Art Supplies', '29', '$22.52'
@@ -154,7 +154,7 @@ GROUP BY
     sl.StoreLocation
 ORDER BY
     Total_Sales DESC;
-
+--ANS--
 # StoreId, StoreLocation, Total_Sales, Number_of_Transactions
 '870', 'New London', '$331,116.76', '2272'
 '865', 'Bridgeport', '$322,100.07', '2231'
@@ -168,7 +168,7 @@ ORDER BY
 
 ---QUESTION 6
 What is your recommendation for where to focus sales attention in the next quarter?--
-
+--ANS--
 -- ============================================================
 --  Recommendation for where to focus sales attention
 --     in the next quarter
