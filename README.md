@@ -2,8 +2,7 @@
 
 ## About the Project
 This project is a business analysis for **EmporiUm**, a fictional student bookstore chain that sells books, tech products, art supplies, and other products both in-store and online. Sales are organized by region, and each region is divided into sales territories.
-
-As a data analyst, I used **SQL (MySQL Workbench)** to answer a sales manager's questions about one sales territory, and **Excel (PivotChart)** to visualize the results.
+ I used **SQL (MySQL Workbench)** to answer a sales manager's questions about one sales territory, and **Excel (PivotChart)** to visualize the results.
 
 ## My Sales Territory
 **Connecticut** (in-store territory, East region)
