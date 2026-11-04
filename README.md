@@ -5,7 +5,7 @@ Project Description
 This project analyzes sales data for EmporiUm, a fictional bookstore and retail business. Using SQL and Excel, I will analyze sales performance, revenue trends, monthly transactions, product categories, and store performance.
 
 Sales Territory
-My assigned sales territory is Connecticut.
+Connecticut 
 
 Tools 
 - MySQL Workbench (SQL)
