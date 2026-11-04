@@ -11,7 +11,7 @@ Tools
 - MySQL Workbench (SQL)
 - Microsoft Excel (PivotChart)
 - Git and GitHub (version control)
-- Power point (Presentation)
+- Power Point (Presentation)
 
 Project Goal
 The goal is to understand sales performance and provide recommendations for where to focus sales attention in the next quarter.
