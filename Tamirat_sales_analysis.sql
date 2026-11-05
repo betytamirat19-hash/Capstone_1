@@ -1,5 +1,5 @@
 USE sample_sales;
---Alias --store_sales ss  --store_locations sl-- Management region m.Region--- ic catagory inventory_categories
+-Alias --store_sales ss  --store_locations sl-- Management region m.Region--- ic catagory inventory_categories
 
 --QUESTION 1 
 --What is total revenue overall for sales in the assigned territory, plus the start date and end date---------that tell you what period the data covers?
@@ -11,10 +11,9 @@ FROM store_sales ss
 JOIN store_locations sl
     ON ss.Store_ID = sl.StoreId
 WHERE sl.State = 'Connecticut';  
-------ANS
+----ANS--
 ---# total_revenue, start_date, end_date
 ---'$2,392,222.44', '2022-01-01', '2025-12-31'
-
 
 QUESTION 2 
 ---What is the revenue breakdown by year and month for the sales territory?
@@ -30,7 +29,7 @@ GROUP BY
     YEAR(ss.Transaction_Date),
     MONTH(ss.Transaction_Date);
 
-----ANS---
+--ANS---
 ----# sales_year, sales_month, monthly_revenue
 '2022', '1', '$29,958.25'
 '2022', '2', '$25,563.98'
@@ -122,7 +121,7 @@ GROUP BY
 ORDER BY
     Month,
     ic.Category;
----ANS--
+--ANS--
 --# Month, Category, Number_of_Transactions, Average_Transaction_Amount
 '2022-01', 'Apparel and Merchandise', '42', '$29.13'
 '2022-01', 'Art Supplies', '29', '$22.52'
@@ -154,7 +153,7 @@ GROUP BY
     sl.StoreLocation
 ORDER BY
     Total_Sales DESC;
---ANS--
+-ANS--
 # StoreId, StoreLocation, Total_Sales, Number_of_Transactions
 '870', 'New London', '$331,116.76', '2272'
 '865', 'Bridgeport', '$322,100.07', '2231'
