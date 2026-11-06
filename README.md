@@ -29,7 +29,7 @@ The goal is to understand sales performance and provide recommendations for wher
 - `tamirat_territory_chart.xlsx`: Excel PivotChart
 
 ## Video Demo
-[Add your video link here]
+[Capstone_one-20261106_004544-Meeting Recording]
 
 Project Presentation
 I will present my project, explain my analysis process, share my findings, and provide recommendations based on the sales data.
