@@ -98,10 +98,12 @@ ORDER BY state_revenue DESC;
 ----# State, Region, state_revenue
 -----ANS---
 ---'New York', 'East', '4330817.09'
----'Connecticut', 'East', '2392222.44'
-
----QUESTION 4
-----What is the number of transactions per month and average transaction amount by product category for the sales territory?--------
+---'Connecticut', 'East', '2392222.44'-    
+----The east region generated a total revenu of $6.7 million ,combining sales from Connecticut and new york.
+ ---New York contributed 64.42% of the region and connecticut 35.58%.
+	
+--QUESTION 4
+---What is the number of transactions per month and average transaction amount by product category for the sales territory?--------
  SELECT
 	DATE_FORMAT(ss.Transaction_Date, '%Y-%m') AS Month,
     ic.Category,
